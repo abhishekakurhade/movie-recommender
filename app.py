@@ -5,7 +5,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load dataset
-df = pd.read_csv("C:/Users/abhis/OneDrive/Desktop/movie recomder/movies.csv")
+df = pd.read_csv("movies.csv")
 
 # Clean and prepare data
 df = df[['Film', 'Genre', 'Lead Studio', 'Audience score %', 'Rotten Tomatoes %']].dropna()
